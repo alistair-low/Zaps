@@ -1,6 +1,6 @@
 import requests
 import urllib.parse
-from datetime import datetime, timedelta
+from datetime import datetime, time, timedelta
 from zoneinfo import ZoneInfo
 
 today = datetime.now().astimezone(ZoneInfo('Europe/London'))
